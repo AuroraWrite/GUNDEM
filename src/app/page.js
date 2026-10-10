@@ -67,7 +67,7 @@ export default function Home() {
           {/* Centered Logo */}
           <a href="#" className={styles.logoLink} aria-label="Turk Portal">
             <img
-              src="/images/turk-portal-logo.png"
+              src="/images/turk-portal-horizontal.png"
               alt="Turk Portal"
               className={styles.logoImg}
             />
