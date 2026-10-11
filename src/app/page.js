@@ -97,7 +97,7 @@ export default function Home() {
         <article className={styles.article}>
           {/* Headline */}
           <h1 className={styles.articleTitle}>
-            SON DAKİKA: 200.000 TL’nin üzerinde kripto varlığınız mı var? Türkiye’de %3 “dijital güvenlik vergisi” iddiası – borsalar vergiyi doğrudan kesebilir
+            SON DAKİKA: Maliye, 200.000 TL üzeri kripto varlıklara %3 “dijital güvenlik vergisi” getirmeye hazırlanıyor
           </h1>
 
           {/* Date Meta */}
@@ -119,19 +119,19 @@ export default function Home() {
           {/* Article Body */}
           <div className={styles.articleBody}>
             <p className={styles.articleLead}>
-              Gelir İdaresi Başkanlığı kaynaklarına göre, kripto varlıkların vergilendirilmesine yönelik bir çalışma kapsamında, gerçek kişilerin 200.000 TL’yi aşan kripto varlıklarına %3 oranında “dijital güvenlik vergisi” getirilmesi planlanıyor. Söz konusu verginin, Türkiye’de faaliyet gösteren kripto para borsaları tarafından doğrudan kesilebileceği ve kullanıcıların ayrıca beyanda bulunmak zorunda kalmayabileceği belirtiliyor.
+              Gelir İdaresi Başkanlığı (GİB) kaynaklarına göre, kripto varlıkların vergilendirilmesine yönelik bir çalışma kapsamında, gerçek kişilerin 200.000 TL’yi aşan kripto varlıklarına %3 oranında “dijital güvenlik vergisi” getirilmesi planlanıyor. Söz konusu verginin, Türkiye’de faaliyet gösteren kripto para borsaları tarafından doğrudan kesilebileceği ve kullanıcıların ayrıca beyanda bulunmak zorunda kalmayabileceği belirtiliyor.
             </p>
 
             <h2 className={styles.sectionHeading}>
-              İddiaların ardından borsalarda hareketlilik: itibari para çekme işlemleri durduruldu, bankalardan açıklama bekleniyor
+              İddiaların ardından borsalarda hareketlilik: fiat para çekme işlemleri durduruldu, bankalardan açıklama bekleniyor
             </h2>
 
             <p className={styles.articleP}>
-              BtcTurk, açıklamasında geçici bir önlem alarak tüm itibari para çekme işlemlerini durdurduğunu bildirdi. Platform, gerekçe olarak “vergi dairesinden vergi kesintisinin uygulanma yöntemine ilişkin nihai teyit beklenmesini” gösterdi.
+              BtcTurk, geçici bir önlem olarak tüm fiat para çekme işlemlerini durdurduğunu açıkladı. Platform, gerekçe olarak vergi dairesinden kesintinin nasıl uygulanacağına dair nihai onay beklediklerini gösterdi.
             </p>
 
             <p className={styles.articleP}>
-              Paribu’nun yaptığı bilgilendirmede ise bazı işlem çiftlerinin geçici olarak kapatıldığı belirtildi. Müşteri destek sayfasında “200’den fazla kişinin sırada olduğu” bilgisi yer aldı.
+              Paribu’dan yapılan açıklamada ise bazı işlem çiftlerinin geçici olarak kapatıldığı belirtildi. Müşteri destek sayfasında “200’den fazla kişinin sırada olduğu” bilgisi yer aldı.
             </p>
 
             <div className={styles.quoteBox}>
@@ -139,7 +139,7 @@ export default function Home() {
                 İstanbul’da yaşayan bir kripto para yatırımcısı şunları anlattı:
               </p>
               <p className={styles.quoteText}>
-                “Cüzdanımda yaklaşık 850.000 TL değerinde 0,15 BTC bulunuyor. BtcTurk, para çekme işlemlerimi doğrudan engelledi ve vergi kesintisi sürecinin tamamlanmasını beklemem gerektiğini söyledi. Müşteri hizmetleriyle iletişime geçtiğimde, kendilerinin de henüz herhangi bir resmî belge almadıklarını ve para çekme işlemlerini yalnızca tedbir amacıyla geçici olarak durdurduklarını söylediler.”
+                “Cüzdanımda yaklaşık 850.000 TL değerinde 0,15 BTC bulunuyor. BtcTurk, para çekme işlemlerimi doğrudan engelledi ve vergi kesintisi sürecinin tamamlanmasını beklemem gerektiğini söyledi. Müşteri hizmetleriyle iletişime geçtiğimde, kendilerinin de henüz herhangi bir resmî belge almadıklarını ve para çekme işlemlerini yalnızca önlem amacıyla geçici olarak durdurduklarını söylediler.”
               </p>
             </div>
 
@@ -148,7 +148,7 @@ export default function Home() {
             </h2>
 
             <p className={styles.articleP}>
-              Garanti BBVA ve Türkiye İş Bankası, mobil uygulama üzerinden müşterilerine bildirim gönderdiler. Bildirimlerde doğrudan “vergi” kelimesi geçmiyor; yalnızca “mevzuat entegrasyonu” ve “işlem güvenliği” vurgulanıyor. Ancak bildirimlerde, vergi sistemiyle entegrasyonu tamamlanmamış hesaplarda itibari para işlemlerine ilişkin bazı özelliklerin kısıtlanabileceği de belirtiliyor.
+              Garanti BBVA ve Türkiye İş Bankası, mobil uygulama üzerinden müşterilerine bildirim gönderdiler. Bildirimlerde doğrudan “vergi” kelimesi geçmiyor; yalnızca “mevzuata uyum” ve “işlem güvenliği” vurgulanıyor. Ancak bildirimlerde, vergi sistemiyle entegrasyonu tamamlanmamış hesaplarda fiat para işlemlerine ilişkin bazı özelliklerin kısıtlanabileceği de belirtiliyor.
             </p>
 
             <p className={styles.articleP}>
@@ -160,7 +160,7 @@ export default function Home() {
                 —— Ek açıklama ——
               </div>
               <p className={styles.articleP}>
-                Saat 17.10’da durum değişti. Gelir İdaresi Başkanlığı sözcüsü, söz konusu belgenin yalnızca sistem stres testleri için hazırlanan kurum içi bir belge olduğunu ve insan hatası nedeniyle yanlışlıkla kamuya açık bir sunucuya yüklendiğini belirtti. Türkiye şu anda böyle bir vergi uygulamıyor.
+                Saat 17.10’da durum değişti. GİB sözcüsü, söz konusu belgenin yalnızca sistem stres testleri için hazırlanan kurum içi bir belge olduğunu ve insan hatası nedeniyle yanlışlıkla kamuya açık bir sunucuya yüklendiğini belirtti. Türkiye şu anda böyle bir vergi uygulamıyor.
               </p>
               <p className={styles.articleP} style={{ marginBottom: 0 }}>
                 BtcTurk ve Paribu daha sonra aynı gece kısıtlamaları kaldırdılar ve kullanıcıların varlıklarıyla ilgili herhangi bir sorun olmadığını duyurdular.
@@ -168,19 +168,19 @@ export default function Home() {
             </div>
 
             <h2 className={styles.sectionHeading}>
-              Ancak soru işaretleri hâlâ giderilmiş değil
+              Ancak kafalardaki soru işaretleri hâlâ silinmiş değil
             </h2>
 
             <p className={styles.articleP}>
-              Yetkililer bunun bir “yanlış aktarım” olduğunu söylüyor, ancak birkaç soru hâlâ yanıtsız:
+              Yetkililer bunun bir “hatalı paylaşım” olduğunu söylüyor, ancak birkaç soru hâlâ yanıtsız:
             </p>
 
             <ul className={styles.bulletList}>
               <li>Neden bir stres testi belgesinde somut vergi oranı ve eşiği yazıyor?</li>
               <li>Neden tam da kripto vergisi tartışmalarının en yoğun olduğu dönemde kamuya açık bir sunucuda ortaya çıktı?</li>
-              <li>Borsalar neden bu kadar hızlı tepki verdiler ve hatta tüm itibari para çekme işlemlerini durdurdular?</li>
+              <li>Borsalar neden bu kadar hızlı tepki verdiler ve hatta tüm fiat para çekme işlemlerini durdurdular?</li>
               <li>Banka bildirimlerinde neden “vergi sistemi entegrasyonu” gibi bir ifade yer aldı?</li>
-              <li>İki borsa, kısıtlamaları kaldırdıktan sonra başlangıçta çekimleri neden durdurduklarını açıklamadılar?</li>
+              <li>İki borsa, kısıtlamaları kaldırdıktan sonra ilk etapta çekimleri neden durdurduklarını açıklamadılar?</li>
             </ul>
 
             <p className={styles.articleP}>
