@@ -25,8 +25,8 @@ export default function CtaButton() {
           {isLoading && <span className={styles.spinner}></span>}
           <span>
             {isLoading
-              ? "Načítání..."
-              : "Další zprávy ze světa kryptoměn"}
+              ? "Yükleniyor..."
+              : "Kripto Para hakkında daha fazla haber"}
           </span>
         </button>
       </div>
@@ -35,7 +35,7 @@ export default function CtaButton() {
         <div className={styles.loadingOverlay} aria-live="assertive">
           <div className={styles.loadingBox}>
             <div className={styles.globalSpinner}></div>
-            <span className={styles.loadingText}>Načítání...</span>
+            <span className={styles.loadingText}>Yükleniyor...</span>
           </div>
         </div>
       )}
