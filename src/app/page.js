@@ -1,35 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
+import { articles } from "@/data/articles";
 import styles from "./page.module.css";
-
-const unreadNews = [
-  {
-    id: 1,
-    title: "Sabiha Gökçen'de dudak uçuklatan fiyat: Sadece 1 şişe su...",
-    img: "/images/sabiha-gokcen-water.jpg",
-  },
-  {
-    id: 2,
-    title: "İşten çıkarıldı; belediyeyi silah ve kılıçla bastı",
-    img: "/images/belediye-baskini.jpg",
-  },
-  {
-    id: 3,
-    title: "Uyanıklık yapmaya çalıştı, 240 bin TL ceza yedi",
-    img: "/images/drone-police.jpg",
-  },
-  {
-    id: 4,
-    title: "Ne Türk, Ne İtalyan, ne Fransiz: Dünyanın en yakışıklı erkekleri belli oldu",
-    img: "/images/yakisikli-erkekler.jpg",
-  },
-  {
-    id: 5,
-    title: "6 ilde rüşvet operasyonu: Damal Belediye Başkanı dahil 10 kişi gözaltına alındı",
-    img: "/images/belediye-baskani.jpg",
-  },
-];
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
@@ -216,14 +190,10 @@ export default function Home() {
               </div>
 
               <div className={styles.unreadList}>
-                {unreadNews.map((item) => (
-                  <a
+                {articles.map((item) => (
+                  <Link
                     key={item.id}
-                    href="https://cryptosvet.cz"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      handleCtaClick();
-                    }}
+                    href={`/clanky/${item.slug}`}
                     className={styles.unreadCard}
                   >
                     <div className={styles.unreadThumbWrap}>
@@ -236,7 +206,7 @@ export default function Home() {
                     <div className={styles.unreadInfo}>
                       <h3 className={styles.unreadHeadline}>{item.title}</h3>
                     </div>
-                  </a>
+                  </Link>
                 ))}
               </div>
             </section>
@@ -248,7 +218,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <div className={styles.footerInner}>
           <p className={styles.footerDisclaimer}>
-            Türkiye'den ve Dünya'dan son dakika haberler, köşe yazıları, magazinden siyasete, spordan seyahate bütün konuların tek adresi gundem.com.tr; Gundem.com.tr haber içerikleri izin alınmadan, kaynak gösterilerek dahi iktibas edilemez, kanuna aykırı ve izinsiz olarak kopyalanamaz, başka yerde yayınlanamaz.
+            Türkiye&apos;den ve Dünya&apos;dan son dakika haberler, köşe yazıları, magazinden siyasete, spordan seyahate bütün konuların tek adresi gundem.com.tr; Gundem.com.tr haber içerikleri izin alınmadan, kaynak gösterilerek dahi iktibas edilemez, kanuna aykırı ve izinsiz olarak kopyalanamaz, başka yerde yayınlanamaz.
           </p>
 
           <div className={styles.footerBottomRow}>
