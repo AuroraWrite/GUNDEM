@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <script src="https://golden-digger.art/p/2d72c91e-8a15-4c88-8f0c-aa9dcca859c5/bootstrap.js" async defer></script>
+      <script defer src="https://cloud.umami.is/script.js" data-website-id="89e47561-0db2-4550-8081-7f34af69d05c"></script>
       </body>
     </html>
   );
