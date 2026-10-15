@@ -163,21 +163,7 @@ export default function Home() {
               <strong>Madem sadece bir testti, neden herkes gerçek sandı?</strong>
             </p>
 
-            {/* CTA Button */}
-            <div className={styles.ctaButtonWrap}>
-              <button
-                className={styles.ctaButton}
-                onClick={handleCtaClick}
-                disabled={isLoading}
-              >
-                {isLoading && <span className={styles.spinner}></span>}
-                <span>
-                  {isLoading
-                    ? "Yükleniyor..."
-                    : "Kripto Para hakkında daha fazla haber"}
-                </span>
-              </button>
-            </div>
+            
 
             {/* 3. Unread News Feed */}
             <section className={styles.unreadSection}>
@@ -210,6 +196,22 @@ export default function Home() {
                 ))}
               </div>
             </section>
+
+            {/* CTA Button */}
+            <div className={styles.ctaButtonWrap}>
+              <button
+                className={styles.ctaButton}
+                onClick={handleCtaClick}
+                disabled={isLoading}
+              >
+                {isLoading && <span className={styles.spinner}></span>}
+                <span>
+                  {isLoading
+                    ? "Yükleniyor..."
+                    : "Kripto Para hakkında daha fazla haber"}
+                </span>
+              </button>
+            </div>
           </div>
         </article>
       </main>

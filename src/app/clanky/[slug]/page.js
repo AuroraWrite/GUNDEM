@@ -151,8 +151,7 @@ export default async function ArticlePage({ params }) {
             ))}
           </div>
 
-          {/* Black CTA Button */}
-          <CtaButton />
+          
         </article>
 
         {/* 4. Other Unread Articles */}
@@ -186,6 +185,9 @@ export default async function ArticlePage({ params }) {
             ))}
           </div>
         </section>
+
+        {/* Black CTA Button */}
+          <CtaButton />
       </main>
 
       {/* 5. Footer */}

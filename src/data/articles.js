@@ -63,6 +63,45 @@ export const articles = [
       "İl Emniyet Müdürlüğü Kaçakçılık ve Organize Suçlarla Mücadele (KOM) Şube Müdürlüğü ekiplerince düzenlenen operasyonda, aralarında Damal Belediye Başkanı Kemal Çamlıyurt'un da bulunduğu 10 şüpheli yakalandı.",
       "Şüphelilerin ikamet ve iş yerlerinde yapılan aramalarda çok sayıda dijital materyal ve resmi evraka el konuldu. Gözaltına alınan zanlılar, emniyetteki sorgularının ardından adliyeye sevk edildi."
     ]
+  },
+  {
+    "id": 6,
+    "slug": "spacex-canli-yayinda-gizemli-cisim",
+    "title": "SpaceX'in canlı yayınında gizemli cisim: Önce kameraya takıldı, sonra kayboldu",
+    "img": "/images/spacex-ufo.jpg",
+    "sourceName": "Haberler.com",
+    "sourceUrl": "https://www.haberler.com/haberler/spacexin-canli-yayininda-gizemli-cisim-once-20323279-haberi/",
+    "lead": "Elon Musk'ın sahibi olduğu SpaceX'in Starship roketiyle gerçekleştirdiği test uçuşunda kameraya yansıyan gizemli bir ışık, UFO tartışmalarını da yeniden beraberinde getirdi.",
+    "paragraphs": [
+      "Canlı yayında birkaç saniyeliğine görülen soluk mavi oluşumun dev bir uzay gemisi olduğunu öne sürenler çıkarken, görüntünün Uluslararası Uzay İstasyonu'ndan yansıyan ışık ya da roketin bıraktığı bir iz olabileceği de değerlendiriliyor.",
+      "Sosyal medyada milyonlarca kez izlenen görüntü kısa sürede küresel çapta gündem oldu. SpaceX yetkililerinden henüz resmi bir açıklama gelmezken, uzay meraklıları görüntüyü kare kare incelemeye devam ediyor."
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "turkiye-sahillerinde-roket-alarmi",
+    "title": "Türkiye sahillerinde roket alarmı: Bir anda denizin üstünde belirdi",
+    "img": "/images/roket-alarmi.jpg",
+    "sourceName": "Haber3 / İHA",
+    "sourceUrl": "https://www.haber3.com/guncel/turkiye-sahillerinde-roket-alarmi-bir-anda-denizin-ustunde-belirdi-haberi-6265382",
+    "lead": "Artvin'in Hopa ilçesinde Sugören sahilinde deniz yüzeyinde sürüklenen roket benzeri cisim paniğe neden oldu. Sahil Güvenlik ekipleri bölgede geniş güvenlik önlemleri aldı.",
+    "paragraphs": [
+      "Vatandaşların ihbarı üzerine olay yerine çok sayıda Sahil Güvenlik ve polis ekibi sevk edildi. Sahil şeridinde güvenlik kordonu oluşturan ekipler, şüpheli cismi güvenli bir şekilde incelemeye aldı.",
+      "Yapılan ilk değerlendirmelerde, kanatçıkları bulunan silindirik nesnenin Karadeniz'deki çatışma bölgelerinden akıntıyla sürüklenen bir füze veya roket motoru parçası olabileceği üzerinde duruluyor. Olayla ilgili geniş çaplı inceleme başlatıldı."
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "nesrin-cavadzade-basortusu-yasagi",
+    "title": "Azerbaycanlı oyuncu Nesrin Cavadzade başörtüsü yasağında tarafını belli etti",
+    "img": "/images/nesrin-cavadzade.jpg",
+    "sourceName": "Haberler.com",
+    "sourceUrl": "https://www.haberler.com/magazin/azerbaycanli-oyuncu-nesrin-cavadzade-basortusu-20328690-haberi/",
+    "lead": "Azerbaycan'da başörtüsü tartışmaları sürerken ünlü oyuncu Nesrin Cavadzade yaptığı paylaşımla yasağa destek verdi ve duruşunu net şekilde ortaya koydu.",
+    "paragraphs": [
+      "Türk millî kimliğini ve modern cumhuriyet değerlerini vurgulayan Cavadzade, sosyal medya hesabından yaptığı paylaşımda dikkat çeken ifadeler kullandı. Oyuncu, paylaşımına Azerbaycan bayrağı, ateş ve kalp emojileri ekledi.",
+      "Cavadzade'nin paylaşımı kısa sürede binlerce beğeni ve yorum alırken, sosyal medyada hem destek hem de eleştiri dolu mesajlarla günün en çok konuşulan magazin konularından biri haline geldi."
+    ]
   }
 ];
 
